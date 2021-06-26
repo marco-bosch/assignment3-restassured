@@ -1,5 +1,7 @@
 package assignment3.restassured.git.tests;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 
@@ -48,7 +50,7 @@ public class APITests extends BaseAPITest {
 		verifyAPIStatusTimeAndHeader(responseProfileAPI, 200);
 
 		String verifyEmail = getDataFromResponseUsingJsonPath(responseProfileAPI, "email");
-		assertEquals(verifyEmail, Email);
+		AssertJUnit.assertEquals(verifyEmail, Email);
 
 	}
 
