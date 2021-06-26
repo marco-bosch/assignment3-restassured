@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-26T18:56:46Z" name="Web Test Suite" finished-at="2021-06-26T18:56:51Z" duration-ms="4960">
+  <suite started-at="2021-06-26T19:12:33Z" name="Web Test Suite" finished-at="2021-06-26T19:12:38Z" duration-ms="5070">
     <groups>
     </groups>
-    <test started-at="2021-06-26T18:56:46Z" name="Web Tests" finished-at="2021-06-26T18:56:51Z" duration-ms="4960">
+    <test started-at="2021-06-26T19:12:33Z" name="Web Tests" finished-at="2021-06-26T19:12:38Z" duration-ms="5070">
       <class name="assignment3.restassured.git.tests.APITests">
-        <test-method signature="signUpAPI()[pri:1, instance:assignment3.restassured.git.tests.APITests@2f04105]" started-at="2021-06-26T18:56:46Z" name="signUpAPI" finished-at="2021-06-26T18:56:49Z" duration-ms="3496" status="PASS">
+        <test-method signature="signUpAPI()[pri:1, instance:assignment3.restassured.git.tests.APITests@309028af]" started-at="2021-06-26T19:12:33Z" name="signUpAPI" finished-at="2021-06-26T19:12:36Z" duration-ms="3547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpAPI -->
-        <test-method signature="profileAPI()[pri:2, instance:assignment3.restassured.git.tests.APITests@2f04105]" started-at="2021-06-26T18:56:49Z" name="profileAPI" finished-at="2021-06-26T18:56:51Z" duration-ms="1449" status="PASS">
+        <test-method signature="profileAPI()[pri:2, instance:assignment3.restassured.git.tests.APITests@309028af]" started-at="2021-06-26T19:12:36Z" name="profileAPI" finished-at="2021-06-26T19:12:38Z" duration-ms="1498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- profileAPI -->
