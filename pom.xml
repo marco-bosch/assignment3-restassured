@@ -29,7 +29,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>api.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemProperties>
 						<property>
