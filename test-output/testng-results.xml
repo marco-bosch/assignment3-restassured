@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5271" started-at="2021-06-26T19:03:46Z" finished-at="2021-06-26T19:03:51Z">
+  <suite name="Default suite" duration-ms="6767" started-at="2021-07-03T12:39:12Z" finished-at="2021-07-03T12:39:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5271" started-at="2021-06-26T19:03:46Z" finished-at="2021-06-26T19:03:51Z">
+    <test name="Default test" duration-ms="6767" started-at="2021-07-03T12:39:12Z" finished-at="2021-07-03T12:39:19Z">
       <class name="assignment3.restassured.git.tests.APITests">
-        <test-method status="PASS" signature="signUpAPI()[pri:1, instance:assignment3.restassured.git.tests.APITests@6cbcf243]" name="signUpAPI" duration-ms="3735" started-at="2021-06-26T19:03:46Z" finished-at="2021-06-26T19:03:50Z">
+        <test-method status="PASS" signature="signUpAPI()[pri:1, instance:assignment3.restassured.git.tests.APITests@6cbcf243]" name="signUpAPI" duration-ms="3924" started-at="2021-07-03T12:39:12Z" finished-at="2021-07-03T12:39:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpAPI -->
-        <test-method status="PASS" signature="profileAPI()[pri:2, instance:assignment3.restassured.git.tests.APITests@6cbcf243]" name="profileAPI" duration-ms="1517" started-at="2021-06-26T19:03:50Z" finished-at="2021-06-26T19:03:51Z">
+        <test-method status="PASS" signature="profileAPI()[pri:2, instance:assignment3.restassured.git.tests.APITests@6cbcf243]" name="profileAPI" duration-ms="1346" started-at="2021-07-03T12:39:16Z" finished-at="2021-07-03T12:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- profileAPI -->
+        <test-method status="PASS" signature="logOutAPI()[pri:3, instance:assignment3.restassured.git.tests.APITests@6cbcf243]" name="logOutAPI" duration-ms="1471" started-at="2021-07-03T12:39:17Z" finished-at="2021-07-03T12:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAPI -->
       </class> <!-- assignment3.restassured.git.tests.APITests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

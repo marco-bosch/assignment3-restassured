@@ -5,7 +5,7 @@
     <classes>
       <class name="assignment3.restassured.git.tests.APITests">
         <methods>
-          <include name="profileAPI"/>
+          <include name="logOutAPI"/>
         </methods>
       </class> <!-- assignment3.restassured.git.tests.APITests -->
     </classes>

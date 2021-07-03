@@ -1,10 +1,8 @@
 package assignment3.restassured.git.tests;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import static io.restassured.RestAssured.given;
-import static org.testng.Assert.assertEquals;
 
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import com.google.gson.internal.LinkedTreeMap;
@@ -19,6 +17,7 @@ public class APITests extends BaseAPITest {
 
 	String authToken = "token not found";
 	String Email = null;
+	String Message = "Logged out successfully";
 
 	@Test(priority = 1)
 	public void signUpAPI() {
@@ -51,6 +50,21 @@ public class APITests extends BaseAPITest {
 
 		String verifyEmail = getDataFromResponseUsingJsonPath(responseProfileAPI, "email");
 		AssertJUnit.assertEquals(verifyEmail, Email);
+
+	}
+
+	@Test(priority = 3)
+	public void logOutAPI() {
+
+		Response responseLogOutAPI = given().spec(commonSpec).param("authtoken", authToken).when()
+				.delete(APIEndpoints.logOutAPI);
+
+		System.out.println(authToken);
+
+		verifyAPIStatusTimeAndHeader(responseLogOutAPI, 200);
+
+		String verifyResponseMessage = getDataFromResponseUsingJsonPath(responseLogOutAPI, "message");
+		AssertJUnit.assertEquals(verifyResponseMessage, Message);
 
 	}
 
